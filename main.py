@@ -86,7 +86,7 @@ if(len(AllNumberList[len(AllNumberList) - 1])>len(AllDateList[len(AllDateList) -
     day_name1 = datetime.date(int(year1), int(month), int(day1))
     for v in range(len(AllNumberList[len(AllNumberList) - 1])-1):
         AllDateList[len(AllDateList) - 1].append((day_name1+datetime.timedelta(v+1)).isoformat())
-for d in AllDateList:
+for d in AllNumberList:
     print(d)
 '''^^^^^^^^^^^^^^^^^^^^^^^^Find all the Dates above^^^^^^^^^^^^^^^^^^^^^^^^^^^^'''
 
